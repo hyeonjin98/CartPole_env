@@ -1,0 +1,18 @@
+simulation:
+  parameters:
+    g: 9.8
+    coeff_of_restitution: 0.9
+    m_cart: 2.0
+    m_pendulum: 1.0
+    cart_range: 1.0
+    pendulum_length: 0.3
+  init:
+    cart_position: 0.0
+    cart_velocity: 0.0
+    pendulum_angle: 90.0
+    pendulum_angular_velocity: 0.0
+  time:
+    start: 0.0
+    end: 5.0
+    simulation_dt: 0.005
+    control_dt: 0.05
